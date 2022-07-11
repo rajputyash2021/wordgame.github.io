@@ -1,0 +1,37 @@
+/* header CSS */
+
+.header{
+    background-color: #A020F0 !important;
+    height: 10vh;
+    color: #ffffff !important;
+}
+
+/* Main Section CSS */
+.main-section{
+    background-color: aqua;
+    height: 80vh;
+}
+.main-section .row-1 .col{
+    height: 10vh;
+}
+.main-section .row-2 .col{
+    height: 70vh;
+}
+
+/* Third Section CSS */
+
+.third-section{
+    background-color: #A020F0 !important;
+    height: 10vh;
+}
+#input-box{
+    height: 8vh;
+    width: 50vw;
+}
+
+@media screen and (max-width:400px) {
+    #input-box{
+        height: 8vh;
+        width: 30vw;
+    }
+}
